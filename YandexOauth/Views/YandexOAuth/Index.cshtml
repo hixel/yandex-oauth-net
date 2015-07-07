@@ -1,0 +1,20 @@
+﻿@using YandexOauth.Oauth.AppParams
+
+@{
+    ViewBag.Title = "Yandex.Passport authenticate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            <div class="ynd-login">
+                <a href="@string.Format("https://oauth.yandex.ru/authorize?response_type=code&client_id={0}", YandexOauthParamContainer.ClientId)">
+                    <img alt="Yandex.Passport authenticate" src="/Content/images/yandex-oauth-btn.png" />
+                </a>
+                <p>Go to Yandex.Passport!
+                </p>
+            </div>
+        </div>
+    </div>    
+</div>
