@@ -1,1 +1,2 @@
-# yandex-oauth-net
+Yandex.Passport OAuth Example
+----------------------------------
