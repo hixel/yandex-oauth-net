@@ -162,7 +162,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\YandexOAuth\Index.cshtml" />
     <Content Include="Views\YandexOAuth\AuthCode.cshtml" />
-    <Content Include="Views\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -43,3 +43,11 @@ a.ynd-oau-title {
     padding-top: 27px;
     font-weight: 600;
 }
+
+.pass-left-col {
+    border-right: 1px solid grey;
+}
+
+.pass-right-col {
+    margin-left: 40px;
+}
