@@ -1,3 +1,6 @@
 packages/
 YandexOauth/obj/
 YandexOauth/bin/
+YandexOauth.WebHost/bin/
+YandexOauth.WebHost/YandexOauth.WebHost.csproj.user
+YandexOauth.v12.suo
